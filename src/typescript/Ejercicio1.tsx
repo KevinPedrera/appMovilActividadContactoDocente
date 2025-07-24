@@ -1,16 +1,16 @@
 // rafc + tab o enter
 export const Ejercicio1 = () => {
     
-    const calcularAreaCuadrado = (lado: number): number => {
+    const calcularArea = (lado: number): number => {
         return lado * lado;
     }
-
-    const ladoDelCuadrado = 5; 
+    const lado = 5; 
+    
     return (
         <div>
             <h3>Cálculo del Área de un Cuadrado</h3>
-            <p>El lado del cuadrado es: {ladoDelCuadrado}</p>
-            <p>El área del cuadrado es: {calcularAreaCuadrado(ladoDelCuadrado)}</p>
+            <p>El lado del cuadrado es: {lado}</p>
+            <p>El área del cuadrado es: {calcularArea(lado)}</p>
         </div>
     );
 }
