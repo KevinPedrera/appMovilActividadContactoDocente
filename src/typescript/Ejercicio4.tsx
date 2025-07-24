@@ -1,6 +1,6 @@
 // rafc + tab o enter
 export const Ejercicio4 = () => {
-    const alumnos: Alumnos[] = [
+    const alumnos: Alumno[] = [
         {
             name: "Viviana",
             edad: 19,
@@ -18,7 +18,10 @@ export const Ejercicio4 = () => {
         }
     ]
 
-    
+    // Funcion para el promedio
+    const Promedio = (listaAlumnos: Alumno[]): number => {
+        const sumaNotas = listaAlumnos.reduce((total, alumno) => total + alumno.calificacion,0);
+    }
   return (
     <div>Ejercicio4</div>
   )
