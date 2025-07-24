@@ -14,10 +14,16 @@ const App = () => {
       <h1>Actividad Contato Docente 1 Kevin Pedrera</h1>
       <br />
       <Ejercicio1/>
+      <div style={{margin: '20px 0', borderBottom: '3px solid #e2bd36ff'}}></div>
       <Ejercicio2/>
+      <div style={{margin: '20px 0', borderBottom: '3px solid #e2bd36ff'}}></div>
       <Ejercicio3/>
+      <div style={{margin: '20px 0', borderBottom: '3px solid #e2bd36ff'}}></div>
       <Ejercicio4/>
+      <div style={{margin: '20px 0', borderBottom: '3px solid #e2bd36ff'}}></div>
       <Ejercicio5/>
+      <div style={{margin: '20px 0', borderBottom: '3px solid #e2bd36ff'}}></div>
+      <br />
     </div>
   )
 }

@@ -6,8 +6,9 @@ export const Ejercicio5 = () => {
 
   return (
     <div>
-        <h3>Contador de 5 en 5</h3>
-        <p>Valor Actual: <small>{contador}</small></p>
+        <h3>Ejercicio 5 Contador de 5 en 5</h3>
+        <br />
+        <h4>Valor Actual: <small>{contador}</small></h4>
         <button className="btn btn-primary" onClick={() => gestionarContador(5)}>+5</button>
         &nbsp;
         <button className="btn btn-primary" onClick={() => gestionarContador(-5)}>-5</button>

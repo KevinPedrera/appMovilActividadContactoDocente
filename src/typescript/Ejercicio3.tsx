@@ -11,7 +11,8 @@ export const Ejercicio3 = () => {
 
     return (
         <div>
-            <h3>Division de Elementos de un Arreglo Usando Map</h3>
+            <h3><em>Ejercicio 3 Division de Elementos de un Arreglo Usando Map</em></h3>
+            <br />
             <p>Arreglo Original: [{arrOriginal.join(", ")}]</p>
             <p>Arreglo Dividido para 5: [{arrDividido.join(", ")}]</p>
         </div>

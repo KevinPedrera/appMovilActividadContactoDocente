@@ -8,7 +8,8 @@ export const Ejercicio2 = () => {
 
   return (
     <div>
-        <h3>Suma de Elementos de un Arreglo</h3>
+        <h3><em>Ejercicio 2 Suma de Elementos de un Arreglo</em></h3>
+        <br />
         <p>El arreglo es: [{arregloNumeros.join(", ")}]</p>
         <p>La suma de los elementos del arreglo es: {sumaArreglo(arregloNumeros)}</p>
     </div>

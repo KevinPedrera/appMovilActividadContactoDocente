@@ -34,7 +34,8 @@ export const Ejercicio4 = () => {
     const promedio= Promedio(alumnos);
   return (
     <div>
-        <h3>Promedio de los Alumnos</h3>
+        <h3><em>Ejercicio 4 Promedio de los Alumnos</em></h3>
+        <br />
         <h4>Lista de Alumnos:</h4>
         <ul>
             {alumnos.map((alumno, index) =>(

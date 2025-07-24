@@ -8,8 +8,9 @@ export const Ejercicio1 = () => {
     
     return (
         <div>
-            <h3>Cálculo del Área de un Cuadrado</h3>
-            <p>El lado del cuadrado es: {lado}</p>
+            <h3><em>Ejercicio 1 Cálculo del Área de un Cuadrado</em></h3>
+            <br />
+            <p>Los lados del cuadrado son de: {lado}</p>
             <p>El área del cuadrado es: {calcularArea(lado)}</p>
         </div>
     );
