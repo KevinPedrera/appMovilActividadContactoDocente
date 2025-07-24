@@ -6,8 +6,8 @@ export const useCounter = () => {
     const gestionarContador = (numero: number): void =>{
         setContador(contador + numero);
     }
-  return (
+  return {
     contador,
     gestionarContador
-  )
+  }
 }

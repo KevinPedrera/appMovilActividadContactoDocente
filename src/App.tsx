@@ -1,6 +1,7 @@
 //el app es el componente padre
 //Componente React ---- ts + React --> tsx
 
+import { Ejercicio5 } from "./components/Ejercicio5";
 import { Ejercicio1 } from "./typescript/Ejercicio1";
 import { Ejercicio2 } from "./typescript/Ejercicio2";
 import { Ejercicio3 } from "./typescript/Ejercicio3";
@@ -16,6 +17,7 @@ const App = () => {
       <Ejercicio2/>
       <Ejercicio3/>
       <Ejercicio4/>
+      <Ejercicio5/>
     </div>
   )
 }
