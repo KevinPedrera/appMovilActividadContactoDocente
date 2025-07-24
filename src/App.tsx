@@ -3,6 +3,7 @@
 
 import { Ejercicio1 } from "./typescript/Ejercicio1";
 import { Ejercicio2 } from "./typescript/Ejercicio2";
+import { Ejercicio3 } from "./typescript/Ejercicio3";
 
 // exportacion directa
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <br />
       <Ejercicio1/>
       <Ejercicio2/>
+      <Ejercicio3/>
     </div>
   )
 }
