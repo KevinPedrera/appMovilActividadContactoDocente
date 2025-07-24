@@ -37,8 +37,13 @@ export const Ejercicio4 = () => {
         <h3>Promedio de los Alumnos</h3>
         <h4>Lista de Alumnos:</h4>
         <ul>
-            
+            {alumnos.map((alumno, index) =>(
+                <li key={index}>
+                    Nombre: {alumno.name}, Edad: {alumno.edad}, Calificacion: {alumno.calificacion}
+                </li>
+            ))}
         </ul>
+        <p>El promedio total de los alumnos es: {promedio.toFixed(2)} </p>
 
     </div>
   )
