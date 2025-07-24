@@ -4,6 +4,7 @@
 import { Ejercicio1 } from "./typescript/Ejercicio1";
 import { Ejercicio2 } from "./typescript/Ejercicio2";
 import { Ejercicio3 } from "./typescript/Ejercicio3";
+import { Ejercicio4 } from "./typescript/Ejercicio4";
 
 // exportacion directa
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Ejercicio1/>
       <Ejercicio2/>
       <Ejercicio3/>
+      <Ejercicio4/>
     </div>
   )
 }
